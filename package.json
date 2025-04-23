@@ -2,13 +2,14 @@
   "name": "furniture-landing-page",
   "private": true,
   "version": "0.0.0",
-  "homepage": "./",
   "type": "module",
+  "homepage": "./",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy" :"npm run build"
   },
   "dependencies": {
     "framer-motion": "^12.6.2",
